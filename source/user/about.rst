@@ -1,5 +1,5 @@
 ========================
-About Kurento and WebRTC
+关于 Kurento 和 WebRTC
 ========================
 
 :term:`Kurento` is a :term:`WebRTC` Media Server and a set of client APIs that simplify the development of advanced video applications for web and smartphone platforms. Its features include group communications, transcoding, recording, mixing, broadcasting and routing of audiovisual flows.

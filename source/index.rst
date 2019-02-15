@@ -1,10 +1,10 @@
 ==================
-Welcome to Kurento
+欢迎访问 Kurento
 ==================
 
-:term:`Kurento` is a :term:`WebRTC` Media Server and a set of client APIs that simplify the development of advanced video applications for web and smartphone platforms. Its features include group communications, transcoding, recording, mixing, broadcasting and routing of audiovisual flows.
+:term:`Kurento` 是关于 :term:`WebRTC` 的媒体服务和一组可简化web/移动端进行高级视频开发的客户端API. 其功能包括多人通讯，音视频流的转码, 录制, 合成, 广播与路由.
 
-The code is open source, released under the terms of `Apache License Version 2.0`_ and `available on GitHub`_.
+项目代码开源, 根据 `Apache License Version 2.0`_ 条款发布，相关可以参考 `available on GitHub`_.
 
 .. _Apache License Version 2.0: https://www.apache.org/licenses/LICENSE-2.0
 .. _available on GitHub: https://github.com/Kurento
