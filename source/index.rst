@@ -9,16 +9,16 @@
 .. _Apache License Version 2.0: https://www.apache.org/licenses/LICENSE-2.0
 .. _available on GitHub: https://github.com/Kurento
 
-You can read more on our page :doc:`About Kurento and WebRTC </user/about>`. Check now how to :doc:`get started </user/quickstart>` with Kurento and take a look at our :doc:`tutorials </user/tutorials>`, which showcase some demo applications.
+你可以在在文档中知道更多的 :doc:`关于 Kurento and WebRTC </user/about>`. 现在 :doc:`开始 </user/quickstart>` 查看如何使用Kurento 通过我们的:doc:`教程 </user/tutorials>`, 以及一些案例.
 
-The main documentation for the project is organized into different sections:
+项目的主体文档有组织的分为几个部分:
 
 - :ref:`user-docs`
 - :ref:`feature-docs`
 - :ref:`project-docs`
 - :ref:`business-docs`
 
-Information about development of *Kurento itself* is also available:
+开发者文档 *Kurento itself* 也是可用的:
 
 - :ref:`dev-docs`
 
@@ -28,7 +28,7 @@ Information about development of *Kurento itself* is also available:
 
 .. toctree::
    :maxdepth: 2
-   :caption: User Documentation
+   :caption: 用户文档
 
    /user/about
    /user/about_openvidu
@@ -50,7 +50,7 @@ Information about development of *Kurento itself* is also available:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Feature Documentation
+   :caption: 功能文档
 
    /features/kurento_api
    /features/kurento_client
@@ -69,7 +69,7 @@ Information about development of *Kurento itself* is also available:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Project Documentation
+   :caption: 项目文档
 
    /project/team
    /project/contribute
@@ -88,7 +88,7 @@ Information about development of *Kurento itself* is also available:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Business Documentation
+   :caption: 业务文档
 
    /business/index
 
@@ -98,7 +98,7 @@ Information about development of *Kurento itself* is also available:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Developer Documentation
+   :caption: 开发者文档
 
    /dev/dev_guide
    /dev/ci
@@ -118,7 +118,7 @@ Information about development of *Kurento itself* is also available:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Knowledge Base
+   :caption: 知识库
 
    /knowledge/congestion_rmcat
    /knowledge/nat
@@ -128,7 +128,7 @@ Information about development of *Kurento itself* is also available:
 
 
 
-Indices and tables
+文档快捷索引
 ==================
 
 - :ref:`genindex`
