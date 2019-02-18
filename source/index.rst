@@ -9,7 +9,7 @@
 .. _Apache License Version 2.0: https://www.apache.org/licenses/LICENSE-2.0
 .. _available on GitHub: https://github.com/Kurento
 
-你可以在在文档中知道更多的 :doc:`关于 Kurento and WebRTC </user/about>`. 现在 :doc:`开始 </user/quickstart>` 查看如何使用Kurento 通过我们的:doc:`教程 </user/tutorials>`, 以及一些案例.
+你可以在在文档中知道更多的 :doc:`关于 Kurento and WebRTC </user/about>`. 现在 :doc:`开始 </user/quickstart>` 查看如何使用Kurento 通过我们的 :doc:`教程 </user/tutorials>`, 以及一些案例.
 
 项目的主体文档有组织的分为几个部分:
 
