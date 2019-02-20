@@ -2,7 +2,7 @@
 欢迎访问 Kurento
 ==================
 
-:term:`Kurento` 是关于 :term:`WebRTC` 的媒体服务和一组可简化web/移动端进行高级视频开发的客户端API. 其功能包括多人通讯，音视频流的转码, 录制, 合成, 广播与路由.
+ :term:`Kurento` 是关于 :term:`WebRTC` 的媒体服务和一组可简化web和移动端进行高级视频开发的客户端API. 其功能包括多人通讯，音视频流的转码, 录制, 合成, 广播与路由.
 
 项目代码开源, 根据 `Apache License Version 2.0`_ 条款发布，相关可以参考 `available on GitHub`_.
 
