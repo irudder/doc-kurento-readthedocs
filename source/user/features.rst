@@ -1,81 +1,80 @@
 ========
-Features
+功能
 ========
 
-This page summarizes the features that Kurento provides, with links to their own documentation page for the most important ones.
+本页概述了Kurento提供的功能，以及指向最重要的文档页面的链接.
 
 
 
-Kurento API, Clients, and Protocol
+Kurento API, 客户端, 协议
 ==================================
 
-Kurento Media Server exposes all its functionality through an RPC API called :doc:`Kurento API </features/kurento_api>`. This API can be queried directly by any kind of JSON-compatible client, but the recommended way to work with it is by means of a :doc:`Kurento Client </features/kurento_client>` library; these are currently provided for *Java*, *Browser Javascript*, and *Node.js*.
+Kurento Media Server 通过 :doc:`Kurento API </features/kurento_api>` 的RPC接口暴露了所有功能. 任何使用兼容json的客户端都可以直接使用这个API，但是推荐的方式是使用 :doc:`Kurento Client </features/kurento_client>` 库; 目前提供的库有 *Java*, *Browser Javascript*, 和 *Node.js*.
 
-If you prefer a different programming language, it's possible to write a custom client library by following the specification of the :doc:`Kurento Protocol </features/kurento_protocol>`, based on *WebSocket* and *JSON-RPC*.
+如果你想使用其他程序语言，你可以基于*WebSocket* and *JSON-RPC*按照 :doc:`Kurento 协议 </features/kurento_protocol>`规范来编写自定义客户端程序.
 
-The picture below shows how to use Kurento Clients in three scenarios:
+下面图片展示了在下列三种场景中如何使用Kurento 客户端:
 
-- Using the Kurento JavaScript Client directly in a compliant WebRTC browser.
-- Using the Kurento Java Client in a Java EE Application Server.
-- Using the Kurento JavaScript Client in a Node.js server.
+- 在兼容 WebRTC 的浏览器中直接使用Kurento JavaScript Client.
+- 在Java EE 应用服务中使用Kurento Java Client.
+- 在Node.js 服务中使用Kurento JavaScript Client.
 
 .. figure:: /images/kurento-clients-connection.png
    :align: center
    :alt: Connection of Kurento Clients (Java and JavaScript) to Kuento Media Server
 
-   *Connection of Kurento Clients (Java and JavaScript) to Kuento Media Server*
+   *连接Kurento Clients (Java and JavaScript) 与 Kuento Media Server*
 
-Complete examples for these three technologies is described in the :doc:`Tutorials section </user/tutorials>`.
+这里有三种技术场景的完整案例 :doc:`部分教程 </user/tutorials>`.
 
-The Kurento Client API is based on the concept of **Media Elements**. A Media Element holds a specific media capability. For example, the media element called *WebRtcEndpoint* holds the capability of sending and receiving WebRTC media streams; the media element called *RecorderEndpoint* has the capability of recording into the file system any media streams it receives; the *FaceOverlayFilter* detects faces on the exchanged video streams and adds a specific overlaid image on top of them, etc. Kurento exposes a rich toolbox of media elements as part of its APIs.
+Kurento Client API基于**媒体元素**的概念. 媒体元素拥有特定的媒体功能. 例如,媒体元素 *WebRtcEndpoint* 拥有发送和接收WebRTC媒体流的能力; 媒体元素 *RecorderEndpoint* 拥有录制接收的媒体流存如文件系统的能力; *FaceOverlayFilter* 检测交换的视频流上的面部并在其上添加特定的重叠图像, 等等. Kurento 公开了丰富的媒体元素工具箱作为其API的一部分.
 
 .. figure:: /images/kurento-basic-toolbox.png
    :align: center
    :alt: Some Media Elements provided out of the box by Kurento
 
-   *Some Media Elements provided out of the box by Kurento*
+   *一些媒体元素可以通过Kurento开箱即用*
 
-To better understand theses concepts it is recommended to take a look to the sections :doc:`/features/kurento_api` and :doc:`/features/kurento_protocol`. You can also take a look at the Reference Documentation of the API implementations that are currently provided: :doc:`/features/kurento_client`.
+理解这些概念可以通过查阅 :doc:`/features/kurento_api` 和 :doc:`/features/kurento_protocol`. 当然你还可以通过查阅已经实现的API参考文档: :doc:`/features/kurento_client`.
 
 
 
-Kurento Modules
+Kurento 模块
 ===============
 
-Kurento has been designed as a pluggable framework. Kurento Media Server uses several modules by default, named *kms-core*, *kms-elements* and *kms-filters*.
+Kurento被设计成是一个可插拔的框架. Kurento 媒体服务将 *kms-core*, *kms-elements* 和 *kms-filters* 作为默认模块.
 
-In addition, there are others built-in modules to enhance the
-capabilities provided by the Kurento Media Server. These modules are named *kms-crowddetector*, *kms-pointerdetector*, *kms-chroma*, and *kms-platedetector*.
+此外，还有其他内置模块可以增强Kurento Media Server提供的功能。这些模块分别是 *kms-crowddetector*, *kms-pointerdetector*, *kms-chroma*, 和 *kms-platedetector*.
 
-Finally, Kurento Media Server can be expanded with new custom modules.
+最后, Kurento媒体服务可以通过自定义模块来扩展.
 
 .. figure:: ../images/kurento-modules01.png
    :align:  center
    :alt:    Kurento modules architecture
 
-   *Kurento modules architecture. Kurento Media Server can be extended with built-it modules (crowddetector, pointerdetector, chroma, platedetector) and also with other custom modules.*
+   *Kurento模块架构。 Kurento Media Server可以使用内置模块（crowddetector，pointerdetector，chroma，platedetector）以及其他自定义模块进行扩展.*
 
-For more information, read the section :doc:`/features/kurento_modules`.
+获取更多信息可查阅 :doc:`/features/kurento_modules`.
 
 
 
-RTP Streaming
+RTP 流
 =============
 
-Besides WebRTC connections, Kurento Media Server is able to manage standard RTP streams, allowing to connect an instance of KMS to a wide variety of devices.
+除了WebRTC连接，Kurento Media Server还能够管理标准RTP流，允许将KMS实例连接到各种设备.
 
-There are two topics to note when dealing with RTP connections: the automatic congestion control algorithms that KMS implements (see :ref:`features-remb`), and the NAT traversal capabilities (see :doc:`/features/nat_traversal`).
+处理RTP连接时需要注意两个点：KMS实现的自动拥塞控制算法 (阅 :ref:`features-remb`), 和 NAT 遍历功能 (阅 :doc:`/features/nat_traversal`).
 
 
 
 .. _features-remb:
 
-Congestion Control / REMB
+拥塞控制 / REMB
 =========================
 
-Kurento implements the *Google Congestion Control* algorithm, so it is able to generate and parse both ``abs-send-time`` RTP headers and :term:`REMB` RTCP messages.
+Kurento 是基于 *Google Congestion Control* 算法实现的, 所以它能够生成并解析 ``abs-send-time`` RTP 头信息 和 :term:`REMB` RTCP 消息.
 
-It is enabled by by passing the media-level attribute ``goog-remb`` in the SDP Offer. For example:
+通过在SDP Offer船体媒体级属性 ``goog-remb`` 来校验通过 . 案例:
 
 .. code-block:: text
    :emphasize-lines: 8
@@ -91,8 +90,8 @@ It is enabled by by passing the media-level attribute ``goog-remb`` in the SDP O
    a=sendonly
    a=ssrc:112233 cname:user@example.com
 
-``a=rtcp-fb`` is the *RTCP Feedback* capability attribute, as defined in :rfc:`4585`.
+``a=rtcp-fb`` 是 *RTCP 反馈* 能力属性, 如定义 :rfc:`4585`.
 
-KMS implements REMB propagation between the sender and receiver legs of a connection. This means that when KMS is used as a proxy between a video sender and one or more video receivers, the smallest REMB value from the receivers will be relayed to the sender. This allows the sender to choose a lower bitrate that will accommodate all of the receivers connected to KMS at the other side.
+KMS在连接的发送方和接收方之间实现REMB传播.这意味着当KMS用作视频发送方与一个或多个视频接收方之间的代理时，来自接收方的最小REMB值将被转发给发送方. 这允许发送方选择较低的比特率，以容纳在另一侧连接到KMS的所有接收方.
 
-For more context about what is REMB and how it fits in the greater project of RMCAT, please read our Knowledge Base document: :doc:`/knowledge/congestion_rmcat`.
+有关什么是REMB及其如何适应RMCAT更大项目的更多背景信息，请阅读我们的知识库文档: :doc:`/knowledge/congestion_rmcat`.
