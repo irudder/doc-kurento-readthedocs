@@ -11,7 +11,7 @@ Kurento API, 客户端, 协议
 
 Kurento Media Server 通过 :doc:`Kurento API </features/kurento_api>` 的RPC接口暴露了所有功能. 任何使用兼容json的客户端都可以直接使用这个API，但是推荐的方式是使用 :doc:`Kurento Client </features/kurento_client>` 库; 目前提供的库有 *Java*, *Browser Javascript*, 和 *Node.js*.
 
-如果你想使用其他程序语言，你可以基于*WebSocket* and *JSON-RPC*按照 :doc:`Kurento 协议 </features/kurento_protocol>`规范来编写自定义客户端程序.
+如果你想使用其他程序语言，你可以基于 *WebSocket* and *JSON-RPC* 按照 :doc:`Kurento 协议 </features/kurento_protocol>` 规范来编写自定义客户端程序.
 
 下面图片展示了在下列三种场景中如何使用Kurento 客户端:
 

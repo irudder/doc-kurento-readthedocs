@@ -19,7 +19,7 @@ Media Server
 File: ``/etc/kurento/kurento.conf.json``.
 
 .. code-block:: text
-   :emphasize-lines: 8
+   :emphasize-lines: 32
 
 	{
 	  "mediaServer" : {
@@ -28,7 +28,7 @@ File: ``/etc/kurento/kurento.conf.json``.
 	    //  "exceptionLimit": "0.8",
 	    //  // 如果没有任何存活对象，且资源用量达到下面的阈值，则重启服务器
 	    //  "killLimit": "0.7",
-	        // 垃圾回收器活动间隔（秒）
+	    //  // 垃圾回收器活动间隔（秒）
 	        "garbageCollectorPeriod": 240
 	    },
 	    "net" : {
@@ -63,7 +63,7 @@ MediaElement
 File: ``/etc/kurento/modules/kurento/MediaElement.conf.ini``.
 
 .. code-block:: text
-   :emphasize-lines: 8
+   :emphasize-lines: 2
 
 	;outputBitrate=1500000 // 输出比特率值
 
@@ -75,7 +75,7 @@ SdpEndpoint
 File: ``/etc/kurento/modules/kurento/SdpEndpoint.conf.json``.
 
 .. code-block:: text
-   :emphasize-lines: 8
+   :emphasize-lines: 26
 
 	{
 		"numAudioMedias" : 1,
@@ -120,7 +120,7 @@ WebRtcEndpoint
 File: ``/etc/kurento/modules/kurento/WebRtcEndpoint.conf.ini``.
 
 .. code-block:: text
-   :emphasize-lines: 8
+   :emphasize-lines: 18
 
 	; 仅支持IP地址，不支持地址的域名
 	; 你必须找到一个有效的stun服务器。 你可以检查它是否有效
@@ -149,7 +149,7 @@ HttpEndpoint
 File: ``/etc/kurento/modules/kurento/HttpEndpoint.conf.ini``.
 
 .. code-block:: text
-   :emphasize-lines: 8
+   :emphasize-lines: 11
 
 	serverAddress=localhost
 	port=9091
