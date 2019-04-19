@@ -1,5 +1,5 @@
 ========
-Glossary
+词汇表
 ========
 
 This is a glossary of terms that often appear in discussion about multimedia transmissions. Some of the terms are specific to :term:`GStreamer` or :term:`Kurento`, and most of them are described and linked to their RFC, W3C or Wikipedia documents.

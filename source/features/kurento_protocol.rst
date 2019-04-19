@@ -1,7 +1,7 @@
 .. highlight:: json
 
 ================
-Kurento Protocol
+Kurento协议
 ================
 
 .. contents:: Table of Contents

@@ -1,5 +1,5 @@
 ======================
-Continuous Integration
+持续集成
 ======================
 
 We have two types of repositories containing Debian packages: either Release or Nightly builds of the KMS Main Repositories and KMS Fork Repositories. Each of these types of repos are made available for the currently supported Ubuntu editions, which as of this writing are Ubuntu 14.04 (Trusty) and Ubuntu 16.04 (Xenial).

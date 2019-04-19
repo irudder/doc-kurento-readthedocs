@@ -1,31 +1,30 @@
 =================
-Kurento Tutorials
+Kurento 教程
 =================
 
-This section contains tutorials showing how to use Kurento framework to build different types of :term:`WebRTC` and multimedia applications. These tutorials come in three flavors:
+本教程向我们展示了怎样使用Kurento框架来实现一个不同类型的 :term:`WebRTC` 多媒体议用. 教程展示了三种形式:
 
-- **Java**: Showing applications where clients interact with *Spring Boot*-based
-  applications, that host the logic orchestrating the communication among clients and control Kurento Media Server capabilities.
+- **Java**: 展示了客户端与基于 *Spring Boot*的应用程序相互作用, 逻辑编排在客户端与Kurento媒体服务通讯的过程中.
 
-- **Browser JavaScript**: These show applications executing at the browser and communicating directly with the Kurento Media Server. In these tutorials all logic is directly hosted by the browser. Hence, no application server is necessary.
+- **Browser JavaScript**: 应用程序通过浏览器直接与Kurento媒体服务交流. 这里的逻辑教程直接通过浏览器编写, 于是,不需要应用程序服务器.
 
-- **Node.js**: In which clients interact with an application server made with Node.js technology. The application server holds the logic orchestrating the communication among the clients and controlling Kurento Media Server capabilities for them.
+- **Node.js**:客户端与使用Node.js技术制作的应用程序服务器进行交互. 应用程序保持逻辑编排客户端间的通讯并控制他们的Kurento媒体服务能力.
 
-.. note::
+.. 备注::
 
-   The tutorials have been created with learning objectives. They are not intended to be used in production environments where different unmanaged error conditions may emerge.
-   **Use at your own risk!**
+   这些教程是根据学习目标创建的。它们不适用于可能出现不同非管理错误情况的生产环境。
+   **使用风险自负！**
 
-.. note::
+.. 备注::
 
-   These tutorials require ``HTTPS`` in order to use WebRTC. Following instructions will provide further information about how to enable application security.
+   在使用WebRTC时本教程要求必须使用 ``HTTPS`` . 根据说明将会提供进一步关于如何使得应用程序安全的更多信息.
 
 
 
 Hello World
 ===========
 
-This is one of the simplest WebRTC applications you can create with Kurento. It implements a :term:`WebRTC` *loopback* (a WebRTC media stream going from client to Kurento Media Server and back to the client)
+使用Kurento你可以创建一个简单的WebRTC应用. 它是吸纳了 :term:`WebRTC` *回放* ( WebRTC媒体流通过客户端传输到Kurento媒体服务再返回到客户端展示)
 
 .. toctree::
    :maxdepth: 1
@@ -36,10 +35,10 @@ This is one of the simplest WebRTC applications you can create with Kurento. It 
 
 
 
-WebRTC Magic Mirror
+WebRTC 魔镜
 ===================
 
-This web application consists on a :term:`WebRTC` *loopback* video communication, adding a funny hat over detected faces. This is an example of a Computer Vision and Augmented Reality filter.
+这个web应用包含了一个 :term:`WebRTC` *环回* 的视频交流, 在检测到面部的时候增加一个有趣的帽子. 这是关于计算机视觉和增强现实过滤器的案例.
 
 .. toctree::
    :maxdepth: 1
@@ -50,10 +49,10 @@ This web application consists on a :term:`WebRTC` *loopback* video communication
 
 
 
-RTP Receiver
+RTP 接收器
 ============
 
-This web application showcases reception of an incoming RTP or SRTP stream, and playback via a WebRTC connection.
+此Web应用程序显示接收传入的RTP或SRTP流，并通过WebRTC连接进行回放。
 
 .. toctree::
    :maxdepth: 1
@@ -62,10 +61,10 @@ This web application showcases reception of an incoming RTP or SRTP stream, and 
 
 
 
-WebRTC One-To-Many broadcast
+WebRTC 1对多广播
 ============================
 
-Video broadcasting for :term:`WebRTC`. One peer transmits a video stream and N peers receive it.
+ :term:`WebRTC` 视频广播. 1个点发送视频流N个点接收它.
 
 .. toctree::
    :maxdepth: 1
@@ -75,10 +74,10 @@ Video broadcasting for :term:`WebRTC`. One peer transmits a video stream and N p
 
 
 
-WebRTC One-To-One video call
+WebRTC 1对1视频通话
 ============================
 
-This web application is a videophone (call one to one) based on :term:`WebRTC`.
+这个web应用时基于 :term:`WebRTC` 的视频会话(1对1通话).
 
 .. toctree::
    :maxdepth: 1
@@ -88,10 +87,10 @@ This web application is a videophone (call one to one) based on :term:`WebRTC`.
 
 
 
-WebRTC One-To-One video call with recording and filtering
+WebRTC 使用录音/过滤来进行1对1的视频通话
 =========================================================
 
-This is an enhanced version of the the One-To-One application with video recording and Augmented Reality.
+这是具有视频录制和增强现实功能的One-To-One应用程序的增强版本。
 
 .. toctree::
    :maxdepth: 1
@@ -100,10 +99,10 @@ This is an enhanced version of the the One-To-One application with video recordi
 
 
 
-WebRTC Many-To-Many video call (Group Call)
+WebRTC 多对多的视频通讯 (群组通讯)
 ===========================================
 
-This tutorial connects several participants to the same video conference. A group call will consist (in the media server side) in N*N WebRTC endpoints, where N is the number of clients connected to that conference.
+本教程将多个参与者连接到同一视频会议. 群组通讯将考虑到 (在媒体服务器端) N*N 个 WebRTC 端点, N标识参与会议的客户都试了.
 
 .. toctree::
    :maxdepth: 1
@@ -112,10 +111,10 @@ This tutorial connects several participants to the same video conference. A grou
 
 
 
-Media Elements metadata
+Media 元素元数据
 =======================
 
-This tutorial detects and draws faces present in the webcam video. It connects filters: KmsDetectFaces and the KmsShowFaces.
+本教程将检测和绘制在网络视屏摄像头中的脸部. 它连接的过滤器: KmsDetectFaces 和 the KmsShowFaces.
 
 .. toctree::
    :maxdepth: 1
@@ -124,10 +123,10 @@ This tutorial detects and draws faces present in the webcam video. It connects f
 
 
 
-WebRTC Media Player
+WebRTC 媒体播放器
 ===================
 
-This tutorial reads a file from disk and plays the video to WebRTC.
+本教程将从磁盘中读文件并以Webrtc的方式播放视频.
 
 .. toctree::
    :maxdepth: 1
@@ -136,10 +135,10 @@ This tutorial reads a file from disk and plays the video to WebRTC.
 
 
 
-WebRTC outgoing Data Channels
+WebRTC 传出数据通道
 =============================
 
-This tutorial injects video into a QR filter and then sends the stream to WebRTC. QR detection events are delivered by means of WebRTC Data Channels, to be displayed in browser.
+本教程将视频注入QR(二维码)过滤器，然后将流发送到WebRTC。 QR检测事件通过WebRTC数据通道传送，以在浏览器中显示.
 
 .. toctree::
    :maxdepth: 1
@@ -148,10 +147,10 @@ This tutorial injects video into a QR filter and then sends the stream to WebRTC
 
 
 
-WebRTC incoming Data Channel
+WebRTC 传入数据通道
 ============================
 
-This tutorial shows how text messages sent from browser can be delivered by Data Channels, to be displayed together with loopback video.
+本教程介绍了如何通过数据通道传送从浏览器发送的文本消息，以便与环回视频一起显示.
 
 .. toctree::
    :maxdepth: 1
@@ -161,13 +160,13 @@ This tutorial shows how text messages sent from browser can be delivered by Data
 
 
 
-WebRTC recording
+WebRTC 录制
 ================
 
-This tutorial has two parts:
+本教程包含两个部分:
 
-1. A :term:`WebRTC` *loopback* records the stream to disk.
-2. The stream is played back.
+1.  :term:`WebRTC` *环回* 将流写入磁盘.
+2. 流回放.
 
 Users can choose which type of media to send and record: audio, video or both.
 
@@ -179,10 +178,10 @@ Users can choose which type of media to send and record: audio, video or both.
 
 
 
-WebRTC repository
+WebRTC 存储库
 =================
 
-This is similar to the recording tutorial, but using the repository to store metadata.
+T本教程类似于录制教程，但是使用存储卡记录元数据.
 
 .. toctree::
    :maxdepth: 1
@@ -191,10 +190,10 @@ This is similar to the recording tutorial, but using the repository to store met
 
 
 
-WebRTC statistics
+WebRTC 统计分析
 =================
 
-This tutorial implements a :term:`WebRTC` *loopback* and shows how to collect WebRTC statistics.
+本教程实现了 :term:`WebRTC` *环回* 和显示如何收集WebRTC统计信息.
 
 .. toctree::
    :maxdepth: 1

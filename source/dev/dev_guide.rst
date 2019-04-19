@@ -1,5 +1,5 @@
 ===============
-Developer Guide
+开发指南
 ===============
 
 This section is a comprehensive guide for development of *Kurento itself*. The intended reader of this text is any person who wants to get involved in writing code for the Kurento project, or to understand how the source code of this project is structured.

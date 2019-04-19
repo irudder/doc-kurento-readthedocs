@@ -2,7 +2,7 @@
 关于Kurento和WebRTC
 ========================
 
-:term:`Kurento` 是关于 :term:`WebRTC` 的媒体服务, 为简化web端和一段的视音频的应用而开发出一套apis接口. 它的功能点包括组通信,转码,录制,流合成,广播与视音频流路由.
+:term:`Kurento` 是关于 :term:`WebRTC` 的媒体服务, 为简化web端和一段的视音频的应用而开发出一套api. 它的功能点包括组通信,转码,录制,流合成,广播与视音频流路由.
 
 Kurento 提供一个多媒体框架利用一下功能易于创建一个多媒体应用的任务:
 
@@ -16,10 +16,10 @@ Kurento 提供一个多媒体框架利用一下功能易于创建一个多媒体
 
 本文档包含有关如何成为KMS开发人员的高级说明。 Kurento客户端应用程序的开发不在本文档的讨论范围之内，此处不再赘述。
 
-Kurento Media Server的代码是开源的， 根据 `Apache License Version 2.0`_ 发布并可以通过 `GitHub 获取`_.
+Kurento Media Server的代码是开源的， 根据 `Apache License Version 2.0`_ 发布并可以通过 `GitHub`_ 获取.
 
 .. _Apache License Version 2.0: https://www.apache.org/licenses/LICENSE-2.0
-.. _available on GitHub: https://github.com/Kurento
+.. _GitHub: https://github.com/Kurento
 
 
 

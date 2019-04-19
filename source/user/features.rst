@@ -1,5 +1,5 @@
 ========
-功能
+功能模块
 ========
 
 本页概述了Kurento提供的功能，以及指向最重要的文档页面的链接.
@@ -27,7 +27,7 @@ Kurento Media Server 通过 :doc:`Kurento API </features/kurento_api>` 的RPC接
 
 这里有三种技术场景的完整案例 :doc:`部分教程 </user/tutorials>`.
 
-Kurento Client API基于**媒体元素**的概念. 媒体元素拥有特定的媒体功能. 例如,媒体元素 *WebRtcEndpoint* 拥有发送和接收WebRTC媒体流的能力; 媒体元素 *RecorderEndpoint* 拥有录制接收的媒体流存如文件系统的能力; *FaceOverlayFilter* 检测交换的视频流上的面部并在其上添加特定的重叠图像, 等等. Kurento 公开了丰富的媒体元素工具箱作为其API的一部分.
+Kurento Client API基于 **媒体元素** 的概念. 媒体元素拥有特定的媒体功能. 例如,媒体元素 *WebRtcEndpoint* 拥有发送和接收WebRTC媒体流的能力; 媒体元素 *RecorderEndpoint* 拥有录制接收的媒体流存如文件系统的能力; *FaceOverlayFilter* 检测交换的视频流上的面部并在其上添加特定的重叠图像, 等等. Kurento 公开了丰富的媒体元素工具箱作为其API的一部分.
 
 .. figure:: /images/kurento-basic-toolbox.png
    :align: center

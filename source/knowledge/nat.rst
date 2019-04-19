@@ -1,5 +1,5 @@
 ===========================
-NAT Types and NAT Traversal
+NAT种类与NAT穿透
 ===========================
 
 .. contents:: Table of Contents

@@ -1,5 +1,5 @@
 =============
-NAT Traversal
+NAT穿透
 =============
 
 :term:`NAT Traversal`, also known as *Hole Punching*, is the procedure of opening an inbound port in the NAT tables of the routers which implement this technology (which are the vast majority of home and corporate routers).

@@ -7,7 +7,7 @@
    - Un-comment the section's name in the index file
 
 ============
-Architecture
+架构
 ============
 
 [TODO - hidden]

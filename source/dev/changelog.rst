@@ -7,7 +7,7 @@
    - Un-comment the section's name in the index file
 
 =========
-Changelog
+更新日志
 =========
 
 [TODO - hidden]

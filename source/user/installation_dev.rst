@@ -1,5 +1,5 @@
 =============================
-Installing Pre-Release Builds
+安装预发布版本
 =============================
 
 Some components of KMS are built nightly, with the code developed during that same day. Other components are built immediately when code is merged into the source repositories.

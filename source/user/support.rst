@@ -1,8 +1,8 @@
 =======
-Support
+支持
 =======
 
-Usage Questions
+使用中出现的问题
 ===============
 
 If you have questions about how to use Kurento, or have an issue that isn't related to a bug, `Stack Overflow`_ is the best place to ask. Tag questions with ``kurento`` so other folks can find them easily.
@@ -22,7 +22,7 @@ Good questions to ask would be:
 
 .. _support-community:
 
-Community Support
+商业支持
 =================
 
 Kurento is a community supported project, nobody is paid explicitly to offer user support. **All people answering your questions are doing it with their own time, so please be kind and provide as much information as possible.**

@@ -5,7 +5,7 @@
 Kurento通过精心策划的一整套技术来共同合作的。其中一些技术可以接受不同的配置参数使得Kurento通过下面的多个配置文件可用:
 
 - ``/etc/kurento/kurento.conf.json``:主配置文件。提供Kurento Media Server本身行为的设置.
-- ``/etc/kurento/modules/kurento/MediaElement.conf.ini``: 各种 *MediaElement*的通用参数.
+- ``/etc/kurento/modules/kurento/MediaElement.conf.ini``: 各种 *MediaElement* 的通用参数.
 - ``/etc/kurento/modules/kurento/SdpEndpoint.conf.ini``: *SdpEndpoint* 的音频/视频参数 (即 *WebRtcEndpoint* 和 *RtpEndpoint*).
 - ``/etc/kurento/modules/kurento/WebRtcEndpoint.conf.ini``: *WebRtcEndpoint* 的具体参数.
 - ``/etc/kurento/modules/kurento/HttpEndpoint.conf.ini``: *HttpEndpoint* 的具体参数.
@@ -176,4 +176,4 @@ File: ``/etc/default/kurento-media-server``.
 Service Init
 ============
 
-*kurento-media-server*包提供了一个与Ubuntu系统集成的服务文件. 这个文件从 */etc/default/kurento-media-server* 加载用户自定义配置参数, 用户可以根据需要配置多个功能.
+*kurento-media-server* 包提供了一个与Ubuntu系统集成的服务文件. 这个文件从 */etc/default/kurento-media-server* 加载用户自定义配置参数, 用户可以根据需要配置多个功能.

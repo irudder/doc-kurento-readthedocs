@@ -1,6 +1,6 @@
 
 ==================
-Installation Guide
+安装向导
 ==================
 
 **Kurento Media Server (KMS)** can be installed in multiple ways

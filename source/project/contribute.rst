@@ -1,5 +1,5 @@
 ==================
-Contribution Guide
+贡献说明
 ==================
 
 You can contribute to the Kurento project through bug reports or bug fixes in the `Issue Tracker`_, code for new features, or improvements to the :doc:`documentation </dev/writing_documentation>`. To contribute, write in the the Kurento Public Mailing List providing full information about your contribution and its value.

@@ -1,5 +1,5 @@
 =============
-Debug Logging
+Debug日志
 =============
 
 When running Kurento Media Server manually with ``/usr/bin/kurento-media-server``, all logging messages are by default printed to standard out (*stdout*).

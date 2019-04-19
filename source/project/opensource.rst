@@ -7,7 +7,7 @@
    - Un-comment the section's name in the index file
 
 ======================
-Open-Source Philosophy
+开源的哲学意义
 ======================
 
 [TODO - hidden]

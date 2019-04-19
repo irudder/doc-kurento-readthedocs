@@ -1,5 +1,5 @@
 ===============
-Code of Conduct
+行为准则
 ===============
 
 Open Source Software communities are complex structures where different interests, expectations and visions need to converge and find some kind of equilibrium. In this process, all stakeholders need to understand and comply with a minimal set of rules that guarantee that things happen to the benefit of the community as a whole and that efforts are invested in the most optimal way for that to happen.

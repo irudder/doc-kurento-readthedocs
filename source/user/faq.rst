@@ -1,5 +1,5 @@
 ==========================
-Frequently Asked Questions
+QA列表
 ==========================
 
 .. _faq-stun:

@@ -1,7 +1,7 @@
 .. _securingapps:
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Securing Kurento Applications
+Kurento应用安全
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 [TODO full review]

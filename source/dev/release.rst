@@ -1,5 +1,5 @@
 ==================
-Release Procedures
+版本发布记录
 ==================
 
 [WORK-IN-PROGRESS]

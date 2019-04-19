@@ -1,5 +1,5 @@
 ===============
-Getting Started
+快速开始
 ===============
 
 Generally speaking, these are the first steps that any user interested in Kurento should follow:

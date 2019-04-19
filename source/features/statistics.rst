@@ -1,7 +1,7 @@
 .. _stats:
 
 %%%%%%%%%%%%%%%%%
-WebRTC Statistics
+WebRTC统计分析
 %%%%%%%%%%%%%%%%%
 
 [TODO full review]

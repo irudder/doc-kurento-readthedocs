@@ -1,5 +1,5 @@
 ==================
-Security Hardening
+安全加固
 ==================
 
 *Hardening* is a set of mechanisms that can be activated by turning on several compiler flags, and are commonly used to protect resulting programs against memory corruption attacks. These mechanisms have been standard practice since at least 2011, when the Debian project set on the goal of releasing all their packages with the security hardening build flags enabled [#Debian]_. Ubuntu has also followed the same policy regarding their own build procedures [#Ubuntu]_.

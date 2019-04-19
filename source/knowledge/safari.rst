@@ -1,5 +1,5 @@
 ============
-Apple Safari
+Safari浏览器
 ============
 
 There are two main implementations of the Safari browser: the Desktop edition which can be found in Mac OS workstations and laptops, and the iOS edition which comes installed as part of the iOS Operating System in mobile devices such as iPhone or iPad.

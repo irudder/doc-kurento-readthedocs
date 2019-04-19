@@ -1,5 +1,5 @@
 ============
-Kurento Team
+Kurento团队
 ============
 
 The Kurento development team is formed under the `CodeURJC Research Group`_, which belongs to the spanish `Rey Juan Carlos University`_, located in Madrid. This team is financed by the University and by `Naeva Tec`_.
