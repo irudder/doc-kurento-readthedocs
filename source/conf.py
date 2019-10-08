@@ -57,8 +57,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Kurento'
-copyright = u'2018, Kurento'  # pylint: disable=redefined-builtin
-author = u'Kurento'
+copyright = u'Kurento手册'  # pylint: disable=redefined-builtin
+author = u'Kurento中文'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
